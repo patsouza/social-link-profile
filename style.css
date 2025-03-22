@@ -58,7 +58,6 @@ img {
 
 .links > * {
   font-weight: 600;
-  text-decoration: none;
   color: white;
   text-decoration: none;
   background-color: hsl(0, 0%, 20%);
@@ -71,5 +70,6 @@ img {
 
 a:hover {
   background-color: hsl(75, 94%, 57%);
+
   color: black;
 }
