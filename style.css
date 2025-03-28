@@ -51,12 +51,14 @@ img {
 }
 
 .links {
+  gap: 3px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  list-style-type: none;
+  font-style: normal;
 }
 
-.links > * {
+a {
   font-weight: 600;
   color: white;
   text-decoration: none;
@@ -66,6 +68,9 @@ img {
   width: 230px;
   border-radius: 10px;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a:hover {
